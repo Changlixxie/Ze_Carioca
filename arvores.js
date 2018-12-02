@@ -11,7 +11,7 @@ function Arvores() {
 	this.passa = false;
 	this.highlight = false;
 
-//BATEU, MORREU!!!
+//COLISÕES
 	this.colide = function(personagem) {
 		
 		if(personagem.y - 100 < this.cima || personagem.y + 70 > height - this.baixo){
